@@ -1,0 +1,15 @@
+body {
+    background-color: #555555;
+    text-align: center;
+}
+
+#about_us {
+    height: 70em;
+    position: fixed;
+    text-align: center;
+    vertical-align: center;
+    line-height: 70em;
+    font-size: 20em;
+    background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%); /* FF3.6+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+}
