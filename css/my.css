@@ -1,0 +1,37 @@
+.btn {
+    font-family: Menlo;
+    background-color: #555555;
+    color: ghostwhite;
+    display: inline-block;
+    width: 7em;
+    line-height: 3em;
+    height: 3em;
+    /*padding: 1em 1.5em 1em 1.5em;*/
+    text-align: center;
+    vertical-align: center;
+    /*margin: 1em 2em 1em 2em;*/
+    padding: 1em 1.5em 1em 1.5em;
+    font-size: 1em;
+    border-radius: 0.2em;
+}
+
+.btn:hover {
+    background-color: steelblue;
+}
+
+.logo-holder {
+    margin: auto;
+}
+
+#navbar {
+    margin: 2em auto 2em auto;
+}
+
+#header {
+    margin: 9em auto 2em auto;
+}
+
+body {
+    background: #f5f5f5;
+    text-align: center;
+}
