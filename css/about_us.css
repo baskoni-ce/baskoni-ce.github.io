@@ -1,5 +1,5 @@
 body {
-    background-color: #555555;
+    background-color: #f5f5f5;
     text-align: center;
 }
 
@@ -9,7 +9,7 @@ body {
     text-align: center;
     vertical-align: center;
     line-height: 70em;
-    font-size: 20em;
-    background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%); /* FF3.6+ */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+    /*font-size: 30em;*/
+    /*background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%); *//* FF3.6+ */
+    /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=1); *//* IE6-9 fallback on horizontal gradient */
 }
