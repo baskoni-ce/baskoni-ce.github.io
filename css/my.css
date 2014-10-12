@@ -1,25 +1,22 @@
 .btn {
-    font-family: Helvetica;
+    font-family: Menlo;
     background-color: #555555;
     color: ghostwhite;
     display: inline-block;
-    width: 10em;
-    line-height: 3.5em;
-    height: 3.5em;
+    width: 7em;
+    line-height: 3em;
+    height: 3em;
     /*padding: 1em 1.5em 1em 1.5em;*/
     text-align: center;
     vertical-align: center;
-    margin: 0.1em 1em 0 1em;
-    /*margin: 0.1em auto 0 auto;*/
-    /*padding: 1em 1.7em 1em 1.7em;*/
-    border: 0.1em solid #555555;
+    /*margin: 1em 2em 1em 2em;*/
+    padding: 1em 1.5em 1em 1.5em;
     font-size: 1em;
-    border-radius: 0.3em;
+    border-radius: 0.2em;
 }
 
 .btn:hover {
     background-color: steelblue;
-    border: 0.1em solid steelblue;
 }
 
 .logo-holder {
@@ -27,7 +24,7 @@
 }
 
 #navbar {
-    margin: 3em auto 2em auto;
+    margin: 2em auto 2em auto;
 }
 
 #header {
@@ -37,4 +34,38 @@
 body {
     background: #f5f5f5;
     text-align: center;
+}
+
+#top-div {
+    width: 0.5em;
+    background-color: #555555;
+}
+
+.parallax {
+    perspective: 1px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.parallax__layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.parallax__layer--base {
+    transform: translateZ(0);
+}
+
+.parallax__layer--back {
+    transform: translateZ(-1px) scale(2);
+}
+
+.parallax__layer--deep {
+    transform: translateZ(-2px) scale(3);
+}
+
+img {
+    width: 100em;
 }
