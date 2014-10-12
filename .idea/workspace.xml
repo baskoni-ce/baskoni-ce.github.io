@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8eb047c-cf24-4ad1-8ba4-d3d2a5806857" name="Default" comment="Parallax is on the way&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/1.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/2.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/3.JPG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    <list default="true" id="a8eb047c-cf24-4ad1-8ba4-d3d2a5806857" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="baskoni-ce.github.io.iws" />
@@ -345,7 +340,11 @@
       <created>1413142617589</created>
       <updated>1413142617589</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Test photos&#10;">
+      <created>1413143038910</created>
+      <updated>1413143038910</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -391,7 +390,8 @@
     <MESSAGE value="CSS fixed" />
     <MESSAGE value="Some fixes" />
     <MESSAGE value="Parallax is on the way&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Parallax is on the way&#10;" />
+    <MESSAGE value="Test photos&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test photos&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
