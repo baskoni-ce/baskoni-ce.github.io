@@ -56,10 +56,25 @@ body {
     position: absolute;
     left: 50%;
     top: 25%;
+    font-size: 3vh;
     transform: translate(-50%, -50%);
 }
 
 .back-photo {
     width: 100%;
     height: auto;
+    /*width: auto;*/
+    /*height: 100vh;*/
+    position: relative;
+    /*margin: 0 auto;*//* virtualy height needed turn don to zero */
+    /*width: 100%;*/
+    /*height:auto;*/
+    /*-webkit-background-size:cover;*/
+    /*-moz-background-size:cover;*/
+    background-size:cover;
+    vertical-align:middle;
+}
+
+.logo {
+    width: 100vh;
 }
